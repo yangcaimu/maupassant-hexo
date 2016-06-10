@@ -444,11 +444,13 @@ div {
 blockquote,.stressed {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 2.5em 0;
-    padding: 0 0 0 50px;
-    color: #555;
-    border-left: none;
+    margin: 0;
+    padding: 0 0 0 15px;
+    color: #777;
+    // border: 1px solid #e3e3e3;
+    border-left: 4px solid #DDD;
 }
+/*
 blockquote:before,.stressed-quote:before {
     content: "\201C";
     display: block;
@@ -461,6 +463,7 @@ blockquote:before,.stressed-quote:before {
     margin-left: -50px;
     position: absolute;
 }
+*/
 strong,b,em {
     font-weight: bold;
 }
